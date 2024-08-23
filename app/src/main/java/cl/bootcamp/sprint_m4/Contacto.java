@@ -63,7 +63,7 @@ public class Contacto extends AppCompatActivity {
 
                 email.setType("text/plain");
                 email.putExtra(Intent.EXTRA_TEXT, binding.etEmail.getText());
-                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"ctapiadev@gmail.com"});
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"n.vargasvillarroel@gmail.com"});
                 startActivity(email);
             }
         });
